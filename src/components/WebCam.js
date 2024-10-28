@@ -89,7 +89,7 @@ const WebcamCapture = () => {
                 ref={videoRef}
                 autoPlay
                 className="border rounded"
-                style={{ width: '90%', maxWidth: '600px', height: '80%', maxHeight: '400px' }}
+                style={{ width: '90%', maxWidth: '600px', height: '80%', maxHeight: '400px', transform: 'scaleX(-1)' }}
             />
         </div>
     );
